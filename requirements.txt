@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-scikit-learn
-transformers
-spacy==3.5.0
-
