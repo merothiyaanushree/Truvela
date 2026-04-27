@@ -1,0 +1,14 @@
+truevella/
+│
+├── app.py                  # Main Streamlit application
+├── requirements.txt        # Dependencies
+├── .env                    # Environment variables (do not commit to GitHub)
+├── data/
+│   └── workplace_ethics.txt # Sample legal/ethical text 
+├── utils/
+│   ├── __init__.py
+│   ├── emotion_tts.py      # NLP Emotion & ElevenLabs TTS
+│   ├── rag_engine.py       # FAISS Vector DB for legal guidance
+│   └── scorer.py           # PyTorch Unbiased Scoring System
+└── assets/                 # (Optional) Add your ambient mp3 here
+
